@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+   <link rel="stylesheet" href="css/style.css">
+
+
+   <title>Document</title>
+</head>
+
+<body>
+   <header class="header">
+   <div class="container">
+      <div class="header__wrapper">
+
+         <input title="t" placeholder="" id="header-check" class="header-burger__checkbox header-burger" type="checkbox">
+         <label for="header-check" class="header__burger header-burger">
+            <span></span>
+         </label>
+         <div class="header-actions header__actions">
+            <a href="#" class="header__logo"><picture><source srcset="img/header-logo.svg" type="image/webp"><img src="img/header-logo.svg" alt="header logo"></picture></a>
+            <button class="header-busket header__busket"><span>10</span></button>
+            <div class="header-actions__user header-actions-user _desk">
+               <picture><source srcset="img/user-icon.svg" type="image/webp"><img src="img/user-icon.svg" alt="user-icon" class="header-actions-user__icon"></picture>
+               <input id="header-user-dropp-menu-checkbox" class="header-actions-user__checkbox" type="checkbox">
+               <label class="header-actions-user__arrow" for="header-user-dropp-menu-checkbox">Войти</label>
+               <ul class="header-actions-user__dropp-menu header-actions-user-dropp-menu">
+                  <li><a href="#" class="header-actions-user-dropp-menu__item">Войти</a></li>
+                  <li><a href="#" class="header-actions-user-dropp-menu__item">Админ. панель</a></li>
+               </ul>
+            </div>
+            <div class="header-actions__user header-actions-user _mobile">
+               <picture><source srcset="img/user-icon.svg" type="image/webp"><img src="img/user-icon.svg" alt="user-icon" class="header-actions-user__icon"></picture>
+               <a href="#" class="header-actions-user__arrow" for="header-user-dropp-menu-checkbox">Войти</a>
+
+            </div>
+         </div>
+         <nav class="header__menu ">
+            <ul class="header__list">
+               <li><a href="#" class="header__link">О нас</a></li>
+               <li><a href="#" class="header__link">Преимущества</a></li>
+               <li><a href="#" class="header__link">Как мы работаем</a></li>
+               <li><a href="#" class="header__link">Отзывы</a></li>
+               <li><a href="#" class="header__link _mobile">Каталог</a></li>
+               <li><a href="#" class="header__link _mobile">Админ. панель</a></li>
+
+            </ul>
+            <div class="header__socials-links">
+
+               <a href="#" class="header__discord-link _mobile">
+                  <img src="img/discord-image.svg" alt="discord">
+               </a>
+               <a href="#" class="header__vk-link _mobile">
+                  <picture><source srcset="img/vk-icon.svg" type="image/webp"><img src="img/vk-icon.svg" alt="vk link"></picture>
+               </a>
+            </div>
+         </nav>
+         <div class="header__catalog _desk">Каталог</div>
+      </div>
+
+      
+   </div>
+   
+</header>
+   <aside class="aside">
+      <div class="aside-content">
+         <a href="#first-block" class="aside-content__number">01
+
+            <svg class="progress-ring"  >
+               <circle class="progress-ring__circle" stroke="white" stroke-width="2" fill="transparent" r="18" cx="19" cy="19"></circle>
+               </svg>
+         
+         </a>
+         <a href="#about" class="aside-content__number">02
+                        <svg class="progress-ring"  >
+               <circle class="progress-ring__circle" stroke="white" stroke-width="2" fill="transparent" r="18" cx="19" cy="19"></circle>
+               </svg>
+         </a>
+         <a href="#advantages" class="aside-content__number">03
+                        <svg class="progress-ring"  >
+               <circle class="progress-ring__circle" stroke="white" stroke-width="2" fill="transparent" r="18" cx="19" cy="19"></circle>
+               </svg>
+         </a>
+         <a href="#how-we-work" class="aside-content__number">04
+                        <svg class="progress-ring"  >
+               <circle class="progress-ring__circle" stroke="white" stroke-width="2" fill="transparent" r="18" cx="19" cy="19"></circle>
+               </svg>
+         </a>
+         <a href="#reviews" class="aside-content__number">05
+                        <svg class="progress-ring"  >
+               <circle class="progress-ring__circle" stroke="white" stroke-width="2" fill="transparent" r="18" cx="19" cy="19"></circle>
+               </svg>
+         </a>
+      </div>
+   </aside>
+
+   <section id="first-block" class="first-block">
+      <div class="container">
+         <div class="first-block__content first-block-content">
+            <a href="#" class="first-block__discord-link">
+              <img src="img/discord-image.svg" alt="discord-link">
+            </a>
+            <div class="first-block-content__text-block">
+               <h1 class="first-block-content__title">azeroth tavern</h1>
+               <p class="first-block-content__text">Вселенная включает множество миров, объединённых хаотической воронкой</p>
+            </div>
+            <button class="first-block-content__btn green-btn">Открыть каталог</button>
+         </div>
+         <a  href="#about" class="first-block__scroll-link">
+            Вниз
+            <picture><source srcset="img/double-arrow.svg" type="image/webp"><img src="img/double-arrow.svg" alt="arrow"></picture>
+         </a>
+      </div>
+   </section>
+   <section id="about" class="about">
+      <div class="container">
+         <div class="about__content about-content">
+            <div class="about__image"><picture><source srcset="img/about-content-image.webp" type="image/webp"><img src="img/about-content-image.png" alt="content-image"></picture></div>
+            <div class="about__text-block">
+               <h2 class="section-title about__title">О нас</h2>
+               <p class="about__text">Вселенная включает множество миров, объединённых хаотической воронкой, которая носит название Круговерть Пустоты. Переход между мирами можно осуществить с помощью порталов. Описанная история вселенной охватывает более 10 тысячелетий.</p>
+               <p class="about__text">Первой разумной расой, упоминаемой в официальной истории вселенной, являются титаны — возникшие как «души миров». Вселенная включает множество миров, объединённых хаотической воронкой, которая носит название Круговерть Пустоты. Переход между мирами можно осуществить с помощью порталов. </p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <main class="main">
+
+
+      <section id="advantages" class="advantages">
+         <div class="container">
+               <h2 class="section-title advantages__title">преимущества</h2>
+               <div class="advantages__content advantages-content">
+                  <div class="advantages-content__item advantage">
+                     <div class="advantage__title-block">
+                        <span class="advantage__title-block-number">01</span>
+                        <h3 class="advantage__title">Доступность</h3>
+                     </div>
+                     <p class="advantage__text">Первой разумной расой, упоминаемой в официальной истории вселенной, являются титаны — возникшие</p>
+                  </div>
+                  <div class="advantages-content__item advantage">
+                     <div class="advantage__title-block">
+                        <span class="advantage__title-block-number">02</span>
+                        <h3 class="advantage__title">Консультация специалистов</h3>
+                     </div>
+                     <p class="advantage__text">Вселенная включает множество миров, объединённых хаотической воронкой, которая носит название</p>
+                  </div>
+                  <div class="advantages-content__item advantage">
+                     <div class="advantage__title-block">
+                        <span class="advantage__title-block-number">03</span>
+                        <h3 class="advantage__title">Удобные способы оплаты</h3>
+                     </div>
+                     <p class="advantage__text">Переход между мирами можно осуществить с помощью порталов. Описанная история вселенной</p>
+                  </div>
+                  <div class="advantages-content__item advantage">
+                     <div class="advantage__title-block">
+                        <span class="advantage__title-block-number">04</span>
+                        <h3 class="advantage__title">Оперативное оформление заказа</h3>
+                     </div>
+                     <p class="advantage__text">Вселенная включает множество миров, объединённых хаотической воронкой, которая носит название</p>
+                  </div>
+                  <div class="advantages-content__item advantage">
+                     <div class="advantage__title-block">
+                        <span class="advantage__title-block-number">05</span>
+                        <h3 class="advantage__title">Консультация специалистов</h3>
+                     </div>
+                     <p class="advantage__text">Переход между мирами можно осуществить с помощью порталов. Описанная история вселенной</p>
+                  </div>
+                  <div class="advantages-content__item advantage">
+                     <div class="advantage__title-block">
+                        <span class="advantage__title-block-number">06</span>
+                        <h3 class="advantage__title">Удобные способы оплаты</h3>
+                     </div>
+                     <p class="advantage__text">Первой разумной расой, упоминаемой в официальной истории вселенной, являются титаны — возникшие</p>
+                  </div>
+               </div>
+         </div>
+      </section>
+
+
+      <section id="how-we-work" class="how-we-work">
+         <div class="container">
+            <h2 class="how-we-work__title section-title">как мы работаем</h2>
+            <div class="how-we-work__content how-we-work-content">
+               <div class="how-we-work-content__position-block">
+                  <div class="how-we-work-content__item">
+                     <div class="how-we-work-content__title-block">
+                        <h3 class="how-we-work-content__title">шаг </h3><span>1</span>
+                     </div>
+                     <p class="how-we-work-content__text">Вселенная включает множество миров, объединённых хаотической воронкой, которая носит название Круговерть Пустоты. </p>
+                  </div>
+                  <div class="how-we-work-content__item">
+                     <div class="how-we-work-content__title-block">
+                        <h3 class="how-we-work-content__title">шаг </h3><span>2</span>
+                     </div>
+                     <p class="how-we-work-content__text">Вселенная включает множество миров, объединённых хаотической воронкой, которая носит название Круговерть Пустоты. </p>
+                  </div>
+                  <div class="how-we-work-content__image">
+
+                     <picture><source srcset="img/how-we-work-content-image.webp" type="image/webp"><img class="" src="img/how-we-work-content-image.png" alt="content-image"></picture>
+                  </div>
+               </div>
+               <div class="how-we-work-content__position-block">
+                  <div class="how-we-work-content__item">
+                     <div class="how-we-work-content__title-block">
+                        <h3 class="how-we-work-content__title">шаг </h3><span>3</span>
+                     </div>
+                     <p class="how-we-work-content__text">Вселенная включает множество миров, объединённых хаотической воронкой, которая носит название Круговерть Пустоты. </p>
+                  </div>
+                  <div class="how-we-work-content__item">
+                     <div class="how-we-work-content__title-block">
+                        <h3 class="how-we-work-content__title">шаг </h3><span>4</span>
+                     </div>
+                     <p class="how-we-work-content__text">Вселенная включает множество миров, объединённых хаотической воронкой, которая носит название Круговерть Пустоты. </p>
+                  </div>
+               </div>
+               <div class="how-we-work-content__position-block">
+                  <div class="how-we-work-content__item">
+                     <div class="how-we-work-content__title-block">
+                        <h3 class="how-we-work-content__title">шаг </h3><span>5</span>
+                     </div>
+                     <p class="how-we-work-content__text">Вселенная включает множество миров, объединённых хаотической воронкой, которая носит название Круговерть Пустоты. </p>
+                  </div>
+                  <div class="how-we-work-content__item">
+                     <div class="how-we-work-content__title-block">
+                        <h3 class="how-we-work-content__title">шаг </h3><span>6</span>
+                     </div>
+                     <p class="how-we-work-content__text">Вселенная включает множество миров, объединённых хаотической воронкой, которая носит название Круговерть Пустоты. </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <section id="reviews" class="reviews">
+
+         <div class="container">
+
+            <h2 class="section-title reviews__title">Отзывы</h2>
+         </div>
+         <div class="container">
+            <div class="swiper reviews__content reviews-content">
+               <div class="swiper-wrapper">
+                  <h3 class="reviews-content__hide-title">Отзывов пока нет <br>
+                     будте первыми!
+                  </h3>
+               <!--код слайдов, если понадобится-->
+                 <!-- <div class="swiper-slide review">
+                     <div class="review__content">
+                        <div class="review__date">21.06.2022</div>
+                        <div class="review__text-block">
+                           <h4 class="review__title">“Все замечательно!”</h4>
+                           <p class="review__text">Первой разумной расой, упоминаемой в официальной истории вселенной, являются титаны — возникшие как «души миров». Вселенная включает множество миров, объединённых хаотической воронкой, которая носит название Круговерть Пустоты. Переход между мирами можно осуществить с помощью порталов. </p>
+                           <div class="review__reviewer-name">Анастасия</div>
+                        </div>
+                     </div>
+                 </div>
+                 <div class="swiper-slide review">
+                     <div class="review__content">
+                        <div class="review__date">21.06.2022</div>
+                        <div class="review__text-block">
+                           <h4 class="review__title">“Все замечательно!”</h4>
+                           <p class="review__text">Первой разумной расой, упоминаемой в официальной истории вселенной, являются титаны — возникшие как «души миров». Вселенная включает множество миров, объединённых хаотической воронкой, которая носит название Круговерть Пустоты. Переход между мирами можно осуществить с помощью порталов. </p>
+                           <div class="review__reviewer-name">Анастасия</div>
+                        </div>
+                     </div>
+                 </div>
+                 <div class="swiper-slide review">
+                     <div class="review__content">
+                        <div class="review__date">21.06.2022</div>
+                        <div class="review__text-block">
+                           <h4 class="review__title">“Все замечательно!”</h4>
+                           <p class="review__text">Первой разумной расой, упоминаемой в официальной истории вселенной, являются титаны — возникшие как «души миров». Вселенная включает множество миров, объединённых хаотической воронкой, которая носит название Круговерть Пустоты. Переход между мирами можно осуществить с помощью порталов. </p>
+                           <div class="review__reviewer-name">Анастасия</div>
+                        </div>
+                     </div>
+                 </div>
+                 <div class="swiper-slide review">
+                     <div class="review__content">
+                        <div class="review__date">21.06.2022</div>
+                        <div class="review__text-block">
+                           <h4 class="review__title">“Все замечательно!”</h4>
+                           <p class="review__text">Первой разумной расой, упоминаемой в официальной истории вселенной, являются титаны — возникшие как «души миров». Вселенная включает множество миров, объединённых хаотической воронкой, которая носит название Круговерть Пустоты. Переход между мирами можно осуществить с помощью порталов. </p>
+                           <div class="review__reviewer-name">Анастасия</div>
+                        </div>
+                     </div>
+                 </div>
+                 <div class="swiper-slide review">
+                     <div class="review__content">
+                        <div class="review__date">21.06.2022</div>
+                        <div class="review__text-block">
+                           <h4 class="review__title">“Все замечательно!”</h4>
+                           <p class="review__text">Первой разумной расой, упоминаемой в официальной истории вселенной, являются титаны — возникшие как «души миров». Вселенная включает множество миров, объединённых хаотической воронкой, которая носит название Круговерть Пустоты. Переход между мирами можно осуществить с помощью порталов. </p>
+                           <div class="review__reviewer-name">Анастасия</div>
+                        </div>
+                     </div>
+                 </div> -->
+
+
+
+               </div>
+
+               <div class="swiper-pagination review-pagination"></div>
+             
+            </div>
+            <div class="swiper-button-next review-button-next">
+               <picture><source srcset="img/arrow-to-right.svg" type="image/webp"><img src="img/arrow-to-right.svg" alt="arrow"></picture>
+            </div>
+            <div class="swiper-button-prev review-button-prev">
+               <picture><source srcset="img/arrow-to-left.svg" type="image/webp"><img src="img/arrow-to-left.svg" alt="arrow"></picture>
+            </div>
+         </div>
+
+   </section>
+   <script>
+         let body = document.querySelector('body');
+         let numberOfSlides = document.querySelectorAll('.review').length;
+
+         let mainBlock = document.querySelector('.main');
+         let elems =[
+            firstBlock = document.querySelector('.first-block'),
+            aboutBlock = document.querySelector('.about'),
+            advantagesBlock = document.querySelector('.advantages'),
+            howWeWorkBlock = document.querySelector('.how-we-work'),
+            reviewsBlock = document.querySelector('.reviews'),
+            
+         ];
+         
+         let numbers = document.querySelectorAll('.aside-content__number'),
+             numbersBlock = document.querySelector('.aside-content'),
+             params = [],
+             numbersBottoms = [];
+         numbers.forEach(item => {
+            numbersBottoms.push(item.getBoundingClientRect().top + item.getBoundingClientRect().height);
+         });
+         // console.log(numbersParams);
+         elems.forEach(item => {
+            params.push({
+               top:  item.getBoundingClientRect().top - body.getBoundingClientRect().top,
+               height: item.getBoundingClientRect().height,
+            });
+            
+         });
+         let center = document.documentElement.clientHeight / 2 + window.pageYOffset;
+            for (let i = 0; i < params.length; i++) {
+               let circle = numbers[i].querySelector('.progress-ring__circle'),
+                   radius = circle.r.baseVal.value,
+                   circumference = radius * 2 * Math.PI;
+
+               circle.style.strokeDasharray = `${circumference} ${circumference}`;
+               circle.style.strokeDashoffset = `${circumference }`;
+
+               function setProgress(percent, c, circlref) {
+                  const offset = circlref - percent / 100 * circlref;
+                  c.style.strokeDashoffset = offset ;
+               }
+               if(center >= params[i].top && center <= params[i].height + params[i].top){
+                  setProgress((100 / params.length * (i + 1)), circle, circumference);
+                  numbers[i].classList.add('active');
+               } else {
+                  numbers[i].classList.remove('active');
+                  setProgress(0, circle, circumference);
+               }
+
+            }
+            for (let i = 0; i < numbersBottoms.length; i++) {
+               if (mainBlock.getBoundingClientRect().top + 150 < numbersBottoms[i] && mainBlock.getBoundingClientRect().top + mainBlock.getBoundingClientRect().height - 150 > numbersBottoms[i]){
+                  
+                  numbers[i].style.color = `#000`;
+                  if(numbers[i].classList.contains('active')) {
+                     numbers[i].style.border = `1px solid rgba(39, 24, 18, 0.4)`;
+                  } else {
+                     numbers[i].style.border = null;
+
+                  }
+                  numbers[i].querySelector('circle').style.stroke = 'black';
+               } else {
+                  numbers[i].style.color = `#fff`;
+                  numbers[i].style.border = null;
+
+                  numbers[i].querySelector('circle').style.stroke = 'white';
+
+               }        
+            }
+         addEventListener("scroll", ()=> {
+            for (let i = 0; i < numbersBottoms.length; i++) {
+               if (mainBlock.getBoundingClientRect().top + 150 < numbersBottoms[i] && mainBlock.getBoundingClientRect().top + mainBlock.getBoundingClientRect().height - 150 > numbersBottoms[i]){
+                  
+                  numbers[i].style.color = `#000`;
+                  if(numbers[i].classList.contains('active')) {
+                     numbers[i].style.border = `1px solid rgba(39, 24, 18, 0.4)`;
+                  } else {
+                     numbers[i].style.border = null;
+
+                  }
+                  numbers[i].querySelector('circle').style.stroke = 'black';
+               } else {
+                  numbers[i].style.color = `#fff`;
+                  numbers[i].style.border = null;
+
+                  numbers[i].querySelector('circle').style.stroke = 'white';
+
+               }        
+            }
+            
+            let center = document.documentElement.clientHeight / 2 + window.pageYOffset;
+            for (let i = 0; i < params.length; i++) {
+               let circle = numbers[i].querySelector('.progress-ring__circle'),
+                   radius = circle.r.baseVal.value,
+                   circumference = radius * 2 * Math.PI;
+
+               circle.style.strokeDasharray = `${circumference} ${circumference}`;
+               circle.style.strokeDashoffset = `${circumference }`;
+
+               function setProgress(percent, c, circlref) {
+                  const offset = circlref - percent / 100 * circlref;
+                  c.style.strokeDashoffset = offset ;
+               }
+               if(center >= params[i].top && center <= params[i].height + params[i].top){
+                  setProgress((100 / params.length * (i + 1)), circle, circumference);
+                  numbers[i].classList.add('active');
+               } else {
+                  numbers[i].classList.remove('active');
+                  setProgress(0, circle, circumference);
+               }
+
+            }
+            
+         });
+
+         
+   </script> 
+   <footer class="footer">
+   <div class="container">
+      <div class="footer__content footer-content">
+         <div class="footer-content__right">
+            <picture><source srcset="img/footer-logo.svg" type="image/webp"><img src="img/footer-logo.svg" alt="footer-logo" class="footer-content__logo"></picture>
+            <a href="#" class="footer-content__log-in _desk"><picture><source srcset="img/user-icon.svg" type="image/webp"><img src="img/user-icon.svg" alt="user"></picture>Войти</a>
+         </div>
+         <nav class="footer-content__center">
+            <ul class="footer-content__menu">
+               <li><a href="#" class="footer-content__menu-link">О нас</a></li>
+               <li><a href="#" class="footer-content__menu-link">Преимущества</a></li>
+               <li><a href="#" class="footer-content__menu-link">Как мы работаем</a></li>
+               <li><a href="#" class="footer-content__menu-link">Отзывы</a></li>
+            </ul>
+         </nav>
+         <div class="footer-content__social-links _desk">
+
+            <a href="#" class="footer-content__discord-link ">
+               <img src="img/discord-image.svg" alt="discord">
+            </a>
+            <a href="#" class="footer-content__vk-link">
+               <picture><source srcset="img/vk-icon.svg" type="image/webp"><img src="img/vk-icon.svg" alt="vk"></picture>
+            </a>
+         </div>
+         <div class="footer-content__left">
+            <div class="footer-content__social-links _mobile">
+
+               <a href="#" class="footer-content__discord-link ">
+                  <img src="img/discord-image.svg" alt="discord">
+               </a>
+               <a href="#" class="footer-content__vk-link">
+                  <picture><source srcset="img/vk-icon.svg" type="image/webp"><img src="img/vk-icon.svg" alt="vk"></picture>
+               </a>
+            </div>
+            <a href="#" class="footer-content__log-in _mobile"><picture><source srcset="img/user-icon.svg" type="image/webp"><img src="img/user-icon.svg" alt="user"></picture>Войти</a>
+            <a href="#" class="footer-content__catalog">
+
+               Каталог
+            </a>
+         </div>
+      </div>
+   </div>
+</footer>
+
+</body>
+  
+
+</html>
