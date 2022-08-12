@@ -351,7 +351,7 @@
             });
             
          });
-         let center = document.documentElement.clientHeight / 2 + window.pageYOffset;
+         let center = document.documentElement.clientHeight / 2 + window.pageYOffset + 100;
             for (let i = 0; i < params.length; i++) {
                let circle = numbers[i].querySelector('.progress-ring__circle'),
                    radius = circle.r.baseVal.value,
@@ -394,7 +394,7 @@
             }
          addEventListener("scroll", ()=> {
             for (let i = 0; i < numbersBottoms.length; i++) {
-               if (mainBlock.getBoundingClientRect().top + 150 < numbersBottoms[i] && mainBlock.getBoundingClientRect().top + mainBlock.getBoundingClientRect().height - 250 > numbersBottoms[i]){
+               if (mainBlock.getBoundingClientRect().top + 150 < numbersBottoms[i] && mainBlock.getBoundingClientRect().top + mainBlock.getBoundingClientRect().height - 150 > numbersBottoms[i]){
                   
                   numbers[i].style.color = `#000`;
                   if(numbers[i].classList.contains('active')) {
@@ -413,7 +413,7 @@
                }        
             }
             
-            let center = document.documentElement.clientHeight / 2 + window.pageYOffset;
+            let center = document.documentElement.clientHeight / 2 + window.pageYOffset + 100;
             for (let i = 0; i < params.length; i++) {
                let circle = numbers[i].querySelector('.progress-ring__circle'),
                    radius = circle.r.baseVal.value,
